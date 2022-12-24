@@ -1,0 +1,130 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            MY PROJECT
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./asset/css/navbar.css">
+        <link rel="stylesheet" href="./asset/css/my-project.css">
+    </head>
+
+    <body >
+        <!-- Header -->
+        <header>
+            <!-- Navbar -->
+            <nav>
+                <section class="item-left">
+                    <!-- Logo -->
+                    <img src="./asset/image/logo.png" alt="logoBrand" />
+                    <!-- List Menu -->
+                    <ul>
+                        <li>
+                            <a class="active" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="non-active" href="#"> My Project </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Contact Me -->
+                <section class="item-right">
+                    <a href="contact-form.html"> Contact Me</a>
+                </section>
+            </nav>
+        </header>
+
+        <!-- Content -->
+        <section class="content">
+
+            <!-- Content Up -->
+            <div class="content-up">
+                <h1>ADD MY PROJECT</h1>
+                <!-- ini adalah form input -->
+                <form onsubmit="getData(event)">
+                    <div>
+                        <label for="project_name">Project Name</label>
+                        <input type="text" id="project_name"/>
+                    </div>
+
+                    <div class="date">
+                        <div>
+                            <label for="start_date">Start Date</label>
+                            <input type="date" id="start_date"/>
+                        </div>
+                        
+                        <div>
+                            <label for="end_date">End Date</label>
+                            <input type="date" id="end_date"/>
+                        </div>
+                    </div>
+                    
+
+                    <div>
+                        <label for="desc">Description</label>
+                        <textarea id="desc" rows="7"  ></textarea>
+                    </div>
+
+                    <div class="tech">
+                        <label for="tech">Technologies</label>
+                        <div id="tech">
+                            <div class="cb-group1">
+                                <div class="cb">
+                                    <input type="checkbox" name="technologi" value="nodeJs" id="nodeJs" />
+                                    <label for="nodeJs">Node Js</label>
+                                </div>
+                                <div class="cb">
+                                    <input type="checkbox" name="technologi" value="nextJs" id="nextJs" />
+                                    <label for="nextJs">Next Js</label>
+                                </div>
+                                
+                            </div>
+
+                            <div class="cb-group2">
+                                <div class="cb">
+                                    <input type="checkbox" name="technologi" value="reactJs" id="reactJs" />
+                                    <label for="reactJs">React Js</label>
+                                </div>
+                                <div class="cb">
+                                    <input type="checkbox" name="technologi" value="typeScript" id="typeScript" />
+                                    <label for="typeScript">TypeScript</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="upload">
+                        <label for="upload_img">Upload Image</label>
+                        <div class="upload_btn">
+                            <label for="upload_img">
+                                <p>Choose</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-paperclip" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M15 7l-6.5 6.5a1.5 1.5 0 0 0 3 3l6.5 -6.5a3 3 0 0 0 -6 -6l-6.5 6.5a4.5 4.5 0 0 0 9 9l6.5 -6.5"></path>
+                                 </svg>
+                            </label>
+                            <input type="file" id="upload_img" name="upload-img" accept="image/*" hidden>
+                        </div>
+                    </div>
+
+                    <div class="btn-submit">
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Content Down -->
+            <div class="content-down">
+                <h1>MY PROJECT</h1>
+                <div class="project" id="project">
+                
+                </div>
+                
+
+            </div>
+        </section>
+        <script src="./asset/js/my-project.js"></script>
+    </body>
+</html>
