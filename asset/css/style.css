@@ -14,18 +14,19 @@
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    width: 80%;
+    width: 1000px;
     margin: 100px auto;
     box-shadow: 0px 5px 22px rgb(75, 72, 72);
 }
 
 .content-left {
     flex: 50%;
-    margin: 120px 40px;
+    margin: 120px 70px;
 }
 
 .content-right {
-    flex: 50%
+    flex: 50%;
+    margin-right: 40px;
 }
 
 .text-area > h1 {
@@ -83,8 +84,9 @@
 }
 
 .content-right .profile-card {
-    width: 90%; 
-    height: 90%;
+    width: 400px; 
+    height: 600px;
+    object-fit: fill;
     border: 1px solid black; 
     margin: 30px auto; 
     box-shadow: 0px 2px 20px #968f8f; 

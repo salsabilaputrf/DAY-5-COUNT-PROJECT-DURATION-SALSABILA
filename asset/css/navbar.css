@@ -37,23 +37,23 @@ nav {
     font-weight: bold;
 
 }
-/*
+
 .item-left ul .active:hover  {
     
     color: orangered;
     font-weight: bold;
-}*/
+}
 
 .item-left ul .non-active {
     text-decoration: none;
     color: black;
 }
-/*
+
 .item-left ul .non-active:hover {
     
     color: orangered;
     font-weight: bold;
-}*/
+}
 
 
 .item-right{
