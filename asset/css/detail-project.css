@@ -15,10 +15,12 @@
     font-size: xx-large;
 }
 
+
+
 .content-up {
     margin: 0;
     display: flex;
-    padding: 30px 100px;
+    padding: 30px 300px;
 }
 
 .content-left {
@@ -162,7 +164,7 @@
 
 .content-down {
     margin-top: 20px;
-    padding: 0px 100px;
+    padding: 0px 300px;
 }
 
 .content-down > p {

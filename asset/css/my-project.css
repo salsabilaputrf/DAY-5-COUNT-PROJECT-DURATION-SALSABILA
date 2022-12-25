@@ -177,14 +177,13 @@ input[type="checkbox"] {
     justify-content: center;
     flex-wrap: wrap;
     align-items: baseline;
-    width: 1000px;
 }
 
 .project_item {
     background-color: white;
     border-radius: 15px;
     display: grid;
-    width: 25%;
+    width: 20%;
     padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -244,6 +243,10 @@ input[type="checkbox"] {
     background-color: #111727;
 }
 
+.btn-edit:hover {
+    background-color: orangered;
+}
+
 .btn-delete{
     border: none;
     flex: 50%;
@@ -251,6 +254,10 @@ input[type="checkbox"] {
     font-size: medium;
     color: white;
     background-color: #111727;
+}
+
+.btn-delete:hover {
+    background-color: orangered;
 }
 
 .btn-group {

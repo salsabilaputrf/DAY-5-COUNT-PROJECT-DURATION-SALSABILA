@@ -21,6 +21,7 @@ function getData(event){
     let endDate = document.getElementById("end_date").value
     let desc = document.getElementById("desc").value
     let image = document.getElementById("upload_img").files
+    // pengkondisian
     let nodeJsImg = (document.getElementById("nodeJs").checked == true)? './asset/icon/icons-node-js.svg' : ""
     let reactJsImg = (document.getElementById("reactJs").checked == true)? './asset/icon/icons-react.svg' : ""
     let nextJsImg = (document.getElementById("nextJs").checked == true)? './asset/icon/icons-next.js.svg' : ""
