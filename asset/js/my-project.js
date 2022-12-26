@@ -1,18 +1,5 @@
 let myProject = []
 
-/* 
-{
-    "Dumbways Mobile Apps",
-    2022-12-09,
-    endDate: endDate,
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus soluta vero blanditiis doloribus est eius, itaque iusto rem sapiente similique aut totam eum rerum distinctio adipisci tempore, eos accusamus laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ratione magnam vel nisi laboriosam qui aspernatur sapiente. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, debitis maiores hic error libero, aperiam pariatur laboriosam enim a nemo sint cum repellat necessitatibus neque, eaque alias provident eum cupiditate.,
-    './asset/icon/icons-node-js.svg',
-    './asset/icon/icons-react.svg',
-    './asset/icon/icons-next.js.svg',
-    './asset/icon/icons-typescript.svg',
-    'blob:http://127.0.0.1:5501/10e03569-e1cc-48ce-a69b-5b7863fafeba'
-    }*/
-
 function getData(event){
     event.preventDefault()
 
@@ -49,7 +36,7 @@ function getData(event){
 }
 
 function showProject(){
-    document.getElementById('project').innerHTML = ""
+    
 
     for (let i = 0; i < myProject.length; i++){
         document.getElementById('project').innerHTML += `
