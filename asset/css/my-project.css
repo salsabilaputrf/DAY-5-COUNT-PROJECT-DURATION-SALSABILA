@@ -207,7 +207,7 @@ input[type="checkbox"] {
 .title {
     padding: 0px;
     margin: 0px;
-    justify-items: left;
+    justify-items: flex-start;
 }
 
 .title a {
