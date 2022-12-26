@@ -36,7 +36,7 @@ function getData(event){
 }
 
 function showProject(){
-    
+    document.getElementById('project').innerHTML = ""
 
     for (let i = 0; i < myProject.length; i++){
         document.getElementById('project').innerHTML += `
