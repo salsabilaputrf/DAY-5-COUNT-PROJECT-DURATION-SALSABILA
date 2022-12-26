@@ -17,7 +17,7 @@ function getData(){
         return alert("Message tidak boleh kosong")
     }
 
-    let emailReceiver = "akun07378@gmail.com"
+    let emailReceiver = "salsabila.putri.fathiyah.tif20@polban.ac.id"
 
     let mailTo = document.createElement('a')
     mailTo.href = `mailto:${emailReceiver}?subject=${subject}&body=Hello nama saya ${name}, ${message}, nomor telepon saya ${phoneNumber}`
